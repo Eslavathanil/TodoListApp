@@ -94,6 +94,7 @@ To-Do-List-Application/
 ## 1. Application Architecture
 
 The application follows a **client-server architecture**:
+```
   +--------------------+          HTTP/API         +--------------------+
   |                    | <--------------------->  |                    |
   |     Frontend       |                          |      Backend       |
@@ -116,7 +117,7 @@ The application follows a **client-server architecture**:
    | - Context / Hooks  |                         |  - Users           |
    | - API Services     |                         |  - Tasks           |
    +--------------------+                         +--------------------+
-
+```
 
 # Todo Backend API
 
