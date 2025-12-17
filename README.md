@@ -14,10 +14,10 @@ The **To-Do List Application** is a simple yet powerful tool designed to help us
 - **Responsive Design** – Works well on both desktop and mobile devices.  
 - **Search & Filter (Optional)** – Filter tasks by status (completed/pending) or search by title.  
 ### Login Page
-<img src="https://res.cloudinary.com/dp8gu4t9m/image/upload/v1765977413/Screenshot_2025-12-17_183507_dpojwb.png" alt="Login Page" width="400">
+<img src="https://res.cloudinary.com/dp8gu4t9m/image/upload/v1765977413/Screenshot_2025-12-17_183507_dpojwb.png" alt="Login Page" width="600" height="400">
 
 ### Dashboard
-<img src="https://res.cloudinary.com/dp8gu4t9m/image/upload/v1765977414/Screenshot_2025-12-17_184437_wi3qug.png" alt="Dashboard" width="600">
+<img src="https://res.cloudinary.com/dp8gu4t9m/image/upload/v1765977414/Screenshot_2025-12-17_184437_wi3qug.png" alt="Dashboard" width="800" height="500">
 
 
 ## **Technologies Used**
