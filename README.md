@@ -123,11 +123,16 @@ The application follows a **client-server architecture**:
 2. Frontend sends HTTP requests to **Express API**.  
 3. Backend processes requests, validates data, and interacts with the **database**.  
 4. Backend responds with data, which frontend updates in **UI state**.
+## 4. Frontend
 
-### Login Page
-<img src="https://res.cloudinary.com/dp8gu4t9m/image/upload/v1765977413/Screenshot_2025-12-17_183507_dpojwb.png" alt="Login Page" width="1000" height="600">
+The frontend is provides a responsive and interactive user interface for managing tasks.
 
-### Dashboard
+### Pages
+- **Login / Signup:** User authentication pages to access the app.  
+ 
+<img src="https://res.cloudinary.com/dp8gu4t9m/image/upload/v1765977413/Screenshot_2025-12-17_183507_dpojwb.png" alt="Login Page" width="1000" height="500">
+
+- **Dashboard:** Displays all tasks and categories in an organized view. 
 <img src="https://res.cloudinary.com/dp8gu4t9m/image/upload/v1765977414/Screenshot_2025-12-17_184437_wi3qug.png" alt="Dashboard" width="1000" height="600">
 
 # 6 Todo Backend API
