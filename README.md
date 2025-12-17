@@ -17,7 +17,7 @@ The **To-Do List Application** is a simple yet powerful tool designed to help us
 <img src="https://res.cloudinary.com/dp8gu4t9m/image/upload/v1765977413/Screenshot_2025-12-17_183507_dpojwb.png" alt="Login Page" width="600" height="400">
 
 ### Dashboard
-<img src="https://res.cloudinary.com/dp8gu4t9m/image/upload/v1765977414/Screenshot_2025-12-17_184437_wi3qug.png" alt="Dashboard" width="800" height="500">
+<img src="https://res.cloudinary.com/dp8gu4t9m/image/upload/v1765977414/Screenshot_2025-12-17_184437_wi3qug.png" alt="Dashboard" width="1000" height="600">
 
 
 ## **Technologies Used**
