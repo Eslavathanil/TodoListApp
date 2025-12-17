@@ -40,6 +40,5 @@ The **To-Do List Application** is a simple yet powerful tool designed to help us
 ## 🌐 Live URLs
 
 - **Frontend:** [https://todolistapp-2-88z2.onrender.com](https://todolistapp-2-88z2.onrender.com)  
-- **Backend API:** [https://todolistapp-ya2x.onrender.com](https://todolistapp-ya2x.onrender.com)
 
 ## **Project Structure**
