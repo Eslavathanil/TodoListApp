@@ -47,6 +47,7 @@ The **To-Do List Application** is a simple yet powerful tool designed to help us
  
 
 ## **Project Structure**
+```
 To-Do-List-Application/
 │
 ├── backend/
@@ -89,7 +90,7 @@ To-Do-List-Application/
 │
 └── .gitignore
 
-
+```
 
 
 
