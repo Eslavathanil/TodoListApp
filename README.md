@@ -71,7 +71,7 @@ To-Do-List-Application/
 └── .gitignore
 
 ```
-### 5 To-Do List Application Architecture
+## 5 **To-Do List Application Architecture**
 ## 1. Application Architecture
 
 The application follows a **client-server architecture**:
@@ -125,7 +125,7 @@ The application follows a **client-server architecture**:
 4. Backend responds with data, which frontend updates in **UI state**.
 
 ### Login Page
-<img src="https://res.cloudinary.com/dp8gu4t9m/image/upload/v1765977413/Screenshot_2025-12-17_183507_dpojwb.png" alt="Login Page" width="600" height="400">
+<img src="https://res.cloudinary.com/dp8gu4t9m/image/upload/v1765977413/Screenshot_2025-12-17_183507_dpojwb.png" alt="Login Page" width="1000" height="600">
 
 ### Dashboard
 <img src="https://res.cloudinary.com/dp8gu4t9m/image/upload/v1765977414/Screenshot_2025-12-17_184437_wi3qug.png" alt="Dashboard" width="1000" height="600">
@@ -169,7 +169,7 @@ Server runs on `http://localhost:5000`
 
 ---
 
-## 7 API Endpoints
+## 7 **API Endpoints**
 
 ### Authentication
 
@@ -231,7 +231,7 @@ Authorization: Bearer <token>
 
 ---
 
-## 8 Frontend Integration
+## 8 **Frontend Integration**
 
 Update your frontend API base URL:
 
