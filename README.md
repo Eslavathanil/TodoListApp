@@ -3,7 +3,7 @@
 The **To-Do List Application** is a simple yet powerful tool designed to help users manage their daily tasks efficiently. It allows users to create, read, update, and delete tasks in an organized manner. This project is implemented as a **full-stack application**, with a **frontend** for user interaction and a **backend** for storing and managing tasks.
 ## 🌐 Live URLs
 
-- **Frontend:** [https://todolistapp-2-88z2.onrender.com](https://todolistapp-2-88z2.onrender.com) 
+- **Web Application** [https://todolistapp-2-88z2.onrender.com](https://todolistapp-2-88z2.onrender.com) 
 
 ## **Key Features**
 - **Add Tasks** – Users can add new tasks with titles, descriptions, and deadlines.  
