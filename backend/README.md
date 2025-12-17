@@ -17,13 +17,7 @@ Copy `.env.example` to `.env` and fill in your values:
 
 ```bash
 cp .env.example .env
-```
 
-Edit `.env`:
-- `MONGO_URI`: Your MongoDB connection string
-- `JWT_SECRET`: A strong random string for JWT signing
-- `EMAIL_*`: SMTP settings for password reset emails
-- `FRONTEND_URL`: Your frontend URL for CORS
 
 ### 3. Start MongoDB
 
