@@ -91,7 +91,31 @@ To-Do-List-Application/
 └── .gitignore
 
 ```
+## 1. Application Architecture
 
+The application follows a **client-server architecture**:
+  +--------------------+          HTTP/API         +--------------------+
+  |                    | <--------------------->  |                    |
+  |     Frontend       |                          |      Backend       |
+  |   (React.js)       |                          |    (Node.js + DB)  |
+  |                    |                          |                    |
+  +--------------------+                          +--------------------+
+           |                                               |
+           | User Actions (CRUD tasks)                     |
+           v                                               v
+   +--------------------+                         +--------------------+
+   |  Components / UI   |                         |   Routes / APIs    |
+   | - Login / Signup   |                         | - Tasks CRUD       |
+   | - Dashboard        |                         | - User Auth        |
+   | - Task List        |                         | - Categories       |
+   +--------------------+                         +--------------------+
+           |                                               |
+           v                                               v
+   +--------------------+                         +--------------------+
+   | State Management   |                         |  Database (MongoDB)|
+   | - Context / Hooks  |                         |  - Users           |
+   | - API Services     |                         |  - Tasks           |
+   +--------------------+                         +--------------------+
 
 
 # Todo Backend API
