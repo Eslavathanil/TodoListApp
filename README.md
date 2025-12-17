@@ -5,7 +5,7 @@ The **To-Do List Application** is a simple yet powerful tool designed to help us
 
 - **Web Application** [https://todolistapp-2-88z2.onrender.com](https://todolistapp-2-88z2.onrender.com) 
 
-## **Key Features**
+## 1 **Key Features**
 - **Add Tasks** – Users can add new tasks with titles, descriptions, and deadlines.  
 - **View Tasks** – Displays a list of all tasks in a clean and organized interface.  
 - **Edit Tasks** – Users can update task details if there are changes.  
@@ -13,40 +13,20 @@ The **To-Do List Application** is a simple yet powerful tool designed to help us
 - **Mark as Complete** – Users can mark tasks as done for easy tracking.  
 - **Responsive Design** – Works well on both desktop and mobile devices.  
 - **Search & Filter (Optional)** – Filter tasks by status (completed/pending) or search by title.  
-### Login Page
-<img src="https://res.cloudinary.com/dp8gu4t9m/image/upload/v1765977413/Screenshot_2025-12-17_183507_dpojwb.png" alt="Login Page" width="600" height="400">
 
-### Dashboard
-<img src="https://res.cloudinary.com/dp8gu4t9m/image/upload/v1765977414/Screenshot_2025-12-17_184437_wi3qug.png" alt="Dashboard" width="1000" height="600">
-
-
-## **Technologies Used**
+## 2 **Technologies Used**
 - **Frontend:** HTML, CSS, JavaScript, React.js (or plain HTML/CSS/JS)  
 - **Backend:** Node.js with Express.js  
 - **Database:** MongoDB (for storing tasks)  
 - **Other Tools:** Axios (for API calls), dotenv (for environment variables), CORS  
 
-## **How It Works**
+## 3 **How It Works**
 1. Users interact with the **frontend interface** to add or manage tasks.  
 2. The frontend sends **HTTP requests** to the backend API.  
 3. The backend handles the requests, performs CRUD operations on the **database**, and returns updated data.  
 4. The user interface updates in real-time to reflect changes in tasks.  
 
-
-## **Use Cases**
-- Personal task management  
-- Work and project planning  
-- Study schedules for students  
-- Grocery lists or reminders  
-
-## **Benefits**
-- Organizes daily activities efficiently.  
-- Reduces the chance of forgetting important tasks.  
-- Helps in prioritizing work.  
-- Improves productivity through better task tracking.  
- 
-
-## **Project Structure**
+## 4 **Project Structure**
 ```
 To-Do-List-Application/
 │
@@ -91,6 +71,7 @@ To-Do-List-Application/
 └── .gitignore
 
 ```
+### 5 To-Do List Application Architecture
 ## 1. Application Architecture
 
 The application follows a **client-server architecture**:
@@ -118,8 +99,38 @@ The application follows a **client-server architecture**:
    | - API Services     |                         |  - Tasks           |
    +--------------------+                         +--------------------+
 ```
+## 2. Architecture Components
 
-# Todo Backend API
+### Frontend (React.js)
+- **Pages:** Login, Dashboard, Add/Edit Task  
+- **Components:** Reusable UI elements like `TaskCard`, `Header`, `Sidebar`  
+- **State Management:** React Context + Hooks  
+- **API Service:** `src/services/api.js` handles communication with backend  
+
+### Backend (Node.js + Express.js)
+- **Routes:** `/auth` for login/signup, `/tasks` for CRUD operations  
+- **Middleware:** Authentication, Error Handling  
+- **Models:** User and Task schemas (MongoDB)  
+- **Utilities:** Helpers, JWT token generation  
+
+### Database
+- **Database:** MongoDB (or any preferred DB)  
+- **Collections:** `Users`, `Tasks`  
+- Stores user information and tasks with categories  
+
+## 3. Data Flow
+1. User interacts with the **React frontend** (login, add task, edit task).  
+2. Frontend sends HTTP requests to **Express API**.  
+3. Backend processes requests, validates data, and interacts with the **database**.  
+4. Backend responds with data, which frontend updates in **UI state**.
+
+### Login Page
+<img src="https://res.cloudinary.com/dp8gu4t9m/image/upload/v1765977413/Screenshot_2025-12-17_183507_dpojwb.png" alt="Login Page" width="600" height="400">
+
+### Dashboard
+<img src="https://res.cloudinary.com/dp8gu4t9m/image/upload/v1765977414/Screenshot_2025-12-17_184437_wi3qug.png" alt="Dashboard" width="1000" height="600">
+
+# 6 Todo Backend API
 
 A MERN stack backend with authentication and todo management.
 
@@ -158,7 +169,7 @@ Server runs on `http://localhost:5000`
 
 ---
 
-## API Endpoints
+## 7 API Endpoints
 
 ### Authentication
 
@@ -220,7 +231,7 @@ Authorization: Bearer <token>
 
 ---
 
-## Frontend Integration
+## 8 Frontend Integration
 
 Update your frontend API base URL:
 
@@ -257,6 +268,18 @@ The frontend will run on http://localhost:5173 (default Vite port).
 Update the API base URL in your frontend code 
 Ensure the backend server is running and accessible for the frontend to work correctly
 ---
+
+## 9 **Use Cases**
+- Personal task management  
+- Work and project planning  
+- Study schedules for students  
+- Grocery lists or reminders  
+
+## 10 **Benefits**
+- Organizes daily activities efficiently.  
+- Reduces the chance of forgetting important tasks.  
+- Helps in prioritizing work.  
+- Improves productivity through better task tracking. 
 ## 👨‍💻 Author
 
 **Anil Eslavath**  
