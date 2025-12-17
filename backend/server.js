@@ -12,11 +12,12 @@ const todoRoutes = require('./routes/todos');
 
 const app = express();
 
-// Middleware
+// ✅ FIXED CORS (WORKS FOR RENDER + LOCAL)
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:8080',
+  origin: true,
   credentials: true
 }));
+
 app.use(express.json());
 
 // Connect to MongoDB
