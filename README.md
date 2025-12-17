@@ -184,3 +184,9 @@ The frontend will run on http://localhost:5173 (default Vite port).
 4. Connecting Frontend to Backend
 Update the API base URL in your frontend code 
 Ensure the backend server is running and accessible for the frontend to work correctly
+
+# 👨‍💻 Author
+
+**Anil Eslavath**  
+GitHub: [https://github.com/Eslavathanil](https://github.com/Eslavathanil)
+
