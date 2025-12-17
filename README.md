@@ -168,15 +168,15 @@ The frontend of the To-Do List Application is built using **React + Vite**. It p
 ## Installation & Setup
 
 1. Navigate to the frontend folder
-```bash
+
 cd frontend
 
 2. Install dependencies
-```bash
+
 npm install
 
 3. Start the frontend server
-```bash
+
 npm run dev
 
 The frontend will run on http://localhost:5173 (default Vite port).
@@ -185,7 +185,7 @@ The frontend will run on http://localhost:5173 (default Vite port).
 Update the API base URL in your frontend code 
 Ensure the backend server is running and accessible for the frontend to work correctly
 ---
-👨‍💻 Author
+## 👨‍💻 Author
 
 **Anil Eslavath**  
 GitHub: [https://github.com/Eslavathanil](https://github.com/Eslavathanil)
